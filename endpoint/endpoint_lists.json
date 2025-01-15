@@ -1,0 +1,21 @@
+[
+    {
+        "chain_name": "oraichain",
+        "chain_type": "cosmos",
+        "chain_id": "Oraichain",
+        "rpc_endpoint": "https://oraichain-rpc.publicnode.com:443"
+    },
+    {
+        "chain_name": "oraibridge",
+        "chain_type": "cosmos",
+        "chain_id": "oraibridge-subnet-2",
+        "rpc_endpoint": "https://bridge-v2.rpc.orai.io",
+        "is_legacy": true
+    },
+    {
+        "chain_name": "bnbchain",
+        "chain_type": "evm",
+        "chain_id": "56",
+        "rpc_endpoint": "https://bsc-rpc.publicnode.com"
+    }
+]
