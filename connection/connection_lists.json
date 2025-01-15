@@ -24,7 +24,7 @@
         "connection_type": "gravity",
         "endpoint_a": {
             "type": "gravity-cosmos",
-            "ibc_endpoint_params": {
+            "gravity_cosmos_endpoint_params": {
                 "chain_name": "oraibridge",
                 "evm_chain_id": "56",
                 "contract_address": "0xb40C364e70bbD98E8aaab707A41a52A2eAF5733f"
@@ -32,7 +32,7 @@
         },
         "endpoint_b": {
             "type": "gravity-evm",
-            "ibc_endpoint_params": {
+            "gravity_evm_endpoint_params": {
                 "chain_name": "bnbchain",
                 "evm_chain_id": "56",
                 "contract_address": "0xb40C364e70bbD98E8aaab707A41a52A2eAF5733f",
