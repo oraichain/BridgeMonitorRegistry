@@ -1,0 +1,43 @@
+[
+    {
+        "connection_id": "oraichain-oraibridge",
+        "connection_type": "ibc",
+        "endpoint_a": {
+            "type": "ibc",
+            "ibc_endpoint_params": {
+                "chain_name": "oraichain",
+                "channel_id": "channel-29",
+                "port_id": "wasm.orai195269awwnt5m6c843q6w7hp8rt0k7syfu9de4h0wz384slshuzps8y7ccm"
+            }
+        },
+        "endpoint_b": {
+            "type": "ibc",
+            "ibc_endpoint_params": {
+                "chain_name": "oraibridge",
+                "channel_id": "channel-1",
+                "port_id": "transfer"
+            }
+        }
+    },
+    {
+        "connection_id": "oraibridge-bnbchain",
+        "connection_type": "gravity",
+        "endpoint_a": {
+            "type": "gravity-cosmos",
+            "ibc_endpoint_params": {
+                "chain_name": "oraibridge",
+                "evm_chain_id": "56",
+                "contract_address": "0xb40C364e70bbD98E8aaab707A41a52A2eAF5733f"
+            }
+        },
+        "endpoint_b": {
+            "type": "gravity-evm",
+            "ibc_endpoint_params": {
+                "chain_name": "bnbchain",
+                "evm_chain_id": "56",
+                "contract_address": "0xb40C364e70bbD98E8aaab707A41a52A2eAF5733f",
+                "proxy_contract_address": "0x9a0A02B296240D2620E339cCDE386Ff612f07Be5"
+            }
+        }
+    }
+]
