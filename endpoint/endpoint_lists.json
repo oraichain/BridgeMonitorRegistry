@@ -13,6 +13,24 @@
         "is_legacy": true
     },
     {
+        "chain_name": "osmosis",
+        "chain_type": "cosmos",
+        "chain_id": "osmosis-1",
+        "rpc_endpoint": "https://osmosis-rpc.publicnode.com:443"
+    },
+    {
+        "chain_name": "injective",
+        "chain_type": "cosmos",
+        "chain_id": "injective-1",
+        "rpc_endpoint": "https://injective-rpc.publicnode.com:443"
+    },
+    {
+        "chain_name": "cosmoshub",
+        "chain_type": "cosmos",
+        "chain_id": "cosmoshub-4",
+        "rpc_endpoint": "https://cosmos-rpc.publicnode.com:443"
+    },
+    {
         "chain_name": "bnbchain",
         "chain_type": "evm",
         "chain_id": "56",

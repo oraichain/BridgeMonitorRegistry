@@ -1,5 +1,65 @@
 [
     {
+        "connection_id": "oraichain-osmosis",
+        "connection_type": "ibc",
+        "endpoint_a": {
+            "type": "ibc",
+            "ibc_endpoint_params": {
+                "chain_name": "oraichain",
+                "channel_id": "channel-13",
+                "port_id": "transfer"
+            }
+        },
+        "endpoint_b": {
+            "type": "ibc",
+            "ibc_endpoint_params": {
+                "chain_name": "osmosis",
+                "channel_id": "channel-216",
+                "port_id": "transfer"
+            }
+        }
+    },
+    {
+        "connection_id": "oraichain-cosmoshub",
+        "connection_type": "ibc",
+        "endpoint_a": {
+            "type": "ibc",
+            "ibc_endpoint_params": {
+                "chain_name": "oraichain",
+                "channel_id": "channel-15",
+                "port_id": "transfer"
+            }
+        },
+        "endpoint_b": {
+            "type": "ibc",
+            "ibc_endpoint_params": {
+                "chain_name": "cosmoshub",
+                "channel_id": "channel-301",
+                "port_id": "transfer"
+            }
+        }
+    },
+    {
+        "connection_id": "oraichain-injective",
+        "connection_type": "ibc",
+        "endpoint_a": {
+            "type": "ibc",
+            "ibc_endpoint_params": {
+                "chain_name": "oraichain",
+                "channel_id": "channel-146",
+                "port_id": "transfer"
+            }
+        },
+        "endpoint_b": {
+            "type": "ibc",
+            "ibc_endpoint_params": {
+                "chain_name": "injective",
+                "channel_id": "channel-147",
+                "port_id": "transfer"
+            }
+        }
+    },
+    {
         "connection_id": "oraichain-oraibridge",
         "connection_type": "ibc",
         "endpoint_a": {
